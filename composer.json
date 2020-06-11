@@ -1,0 +1,24 @@
+{
+    "name": "ecoztas/phpsiteleton",
+    "description": "Project structure for PHP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Emre Can OZTAS",
+            "email": "me@emrecanoztas.com",
+            "homepage": "https://emrecanoztas.com",
+            "role": "Full Stack Developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "application/packages/"
+    },
+    "autoload": {
+        "psr-4": {
+            "Application\\Library\\": "application/libraries/"
+        },
+        "files": []
+    },
+    "require": {}
+}
